@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shai"
+    android:orientation="vertical"
+    tools:context=".Major">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="453dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ic_baseline_image_24" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/round"
+        android:text="ADD YOUR IMAGE"
+        android:textAllCaps="false"
+        android:textColor="#184d47"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="what's your name?"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="How old are you?"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/se"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Birthday Date"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Where are you from?"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/round"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textColor="#184d47"
+        android:textSize="14sp" />
+</LinearLayout>

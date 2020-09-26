@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shai"
+    android:orientation="vertical"
+    tools:context=".Apply" >
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="39dp"
+        android:text="Click on which doctor you want to become"
+        android:textColor="#8F050505"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/happy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/round"
+        android:text="DR.Happy"
+        android:textAllCaps="false"
+        android:textColor="#184d47"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/happy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/round"
+        android:text="DR.Smile"
+        android:textAllCaps="false"
+        android:textColor="#184d47"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/happy3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/round"
+        android:text="DR.Beauty"
+        android:textAllCaps="false"
+        android:textColor="#184d47"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="39dp"
+        android:text="We will add more soon. Stay Tuned"
+        android:textColor="#8F050505"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
